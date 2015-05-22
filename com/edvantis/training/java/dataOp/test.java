@@ -49,9 +49,10 @@ public class test {
 		 mas[6]="Shcherbak Vyacheslav                    ";
 		 mas[7]="ATratata Vadim Vasilovich   ";
 		 
+
+		 for(String d: mas) System.out.println(d);
 		 
-		 for (int i=1;i< mas.length; i++) System.out.println(mas[i]);
-		 		 
+		 
 		 Arrays.sort(mas,1,8);
 		System.out.println("\n\n");	 
 		 
@@ -67,7 +68,7 @@ public class test {
 		 arl.add("Shcherbak Vyacheslav");
 		 arl.add("ATratata Vadim Vasilovich");
 		 
-		 arl.
+		 
 		 
 		 
 		 
