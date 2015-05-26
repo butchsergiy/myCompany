@@ -59,18 +59,19 @@ public class test {
 		 for (int i=1;i< mas.length; i++) System.out.println(mas[i]);
 //////////////////////////////////////////////////////////////////////////////////////////		 
 		
-		 ArrayList<String> arl=new ArrayList<String>();
-		 arl.add("Klimko volodymyr");
-		 arl.add("Prosolov volodymyr");
-		 arl.add("Kiyovskyy olecsandr olecsandrovich");
-		 arl.add("Buch sergiy volodimirovich");
-		 arl.add("Kaninskyy Oleksandr");
-		 arl.add("Shcherbak Vyacheslav");
-		 arl.add("ATratata Vadim Vasilovich");
-		 
-		 
-		 
-		 
+		ArrayList<String> arl = new ArrayList<String>();
+		arl.add("Klimko volodymyr");
+		arl.add("Prosolov volodymyr");
+		arl.add("Kiyovskyy olecsandr olecsandrovich");
+		arl.add("Buch sergiy volodimirovich");
+		arl.add("Kaninskyy Oleksandr");
+		arl.add("Shcherbak Vyacheslav");
+		arl.add("ATratata Vadim Vasilovich");
+
+		System.out.println(arl);
+
+		arl.sort(null);
+		System.out.println(arl);
 		 
 		 
 		 
